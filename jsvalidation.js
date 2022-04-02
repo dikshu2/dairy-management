@@ -41,7 +41,7 @@ function submitForm() {
      password2 = document.getElementById('upassword2').value;
 
     if (username === '') {
-        //setError(username, 'username cannot be blank');
+        setError(username, 'username cannot be blank');
         alert("Username mustnot be blank");
         return false;
     } else if (username.length <= 2) {

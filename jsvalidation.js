@@ -110,5 +110,5 @@ function submitForm() {
         //  setSuccess(password2);
        
     }
-    return false;
+    return true;
 }

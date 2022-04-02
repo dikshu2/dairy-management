@@ -32,7 +32,7 @@
 // }
 
 function submitForm() {
-   form = document.getElementById('form').value;
+   //form = document.getElementById('form').value;
      username = document.getElementById('username').value;
      email = document.getElementById('uemail').value;
      number = document.getElementById('unumber').value;
